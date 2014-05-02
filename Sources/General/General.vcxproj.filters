@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{330d0c73-d606-412c-9b09-0115f88c0c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{29baa4ca-422f-4ea2-adba-d23186fbeae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\General">
+      <UniqueIdentifier>{6952f4d6-5fc9-49d8-bce1-3dbabc4e0bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\DeuxD">
+      <UniqueIdentifier>{bb3a1ad4-f752-49aa-b526-945f2c3cfc93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Sources\General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Includes\DeuxD\DeuxD.h">
+      <Filter>Includes\DeuxD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Includes\DeuxD\MemoryPool.h">
+      <Filter>Includes\DeuxD</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
